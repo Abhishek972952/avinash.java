@@ -250,25 +250,39 @@ public class Ar{
         //     b = c;
         // }
        
-  int num=153;
-int sum=0;
-int a=num;
+//   int num=153;
+// int sum=0;
+// int a=num;
 
-while(a>0)
-{
+// while(a>0)
+// {
     
-    int digit=a%10;
-    sum=sum+(digit*digit*digit);
-    a=a/10;
-}
-if(sum==num)
-{
-    System.out.println("armstong number");
+//     int digit=a%10;
+//     sum=sum+(digit*digit*digit);
+//     a=a/10;
+// }
+// if(sum==num)
+// {
+//     System.out.println("armstong number");
 
+// }
+// else{
+//     System.out.println("armstong not number");
+// }
+
+int arr[]={1,3,8,9,4};
+int largest=arr[0];
+
+for(int i=0;i<arr.length;++i)
+{
+    if(arr[i]>largest)
+    {
+
+        largest=arr[i];
+    }
 }
-else{
-    System.out.println("armstong not number");
-}
+System.out.println("largest value is" +largest);
+
   
 
 }
